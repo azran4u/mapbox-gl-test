@@ -1,1 +1,1 @@
-# ngx-mapbox-gl-simple-app
+# Test Mapbox GL using Angular app
