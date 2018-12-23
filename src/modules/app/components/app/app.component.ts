@@ -11,6 +11,8 @@ export class AppComponent implements OnInit {
   loadBasicFlag: Boolean;
   loadAnimationFlag: Boolean;
   loadHebrewFlag: Boolean;
+  appSourceMultipleFeaturesFlag: Boolean;
+  appTurfFlag: Boolean;
 
   constructor() { }
 
@@ -19,6 +21,8 @@ export class AppComponent implements OnInit {
     this.loadBasicFlag = false;
     this.loadAnimationFlag = false;
     this.loadHebrewFlag = false;
+    this.appSourceMultipleFeaturesFlag = false;
+    this.appTurfFlag = false;
   }
 
   loadPlanes(){
@@ -35,5 +39,13 @@ export class AppComponent implements OnInit {
 
   loadHebrew(){
     this.loadHebrewFlag = true;
+  }
+
+  loadSourceMultipleFeatures(){
+    this.appSourceMultipleFeaturesFlag = true;
+  }
+
+  loadTurf(){
+    this.appTurfFlag = true;
   }
 }
